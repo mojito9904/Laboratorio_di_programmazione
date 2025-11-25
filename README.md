@@ -1,7 +1,11 @@
-Salve questa repository conterra i parziale del corso Labopratorio di programmazione.
-Ogni parziale avra tre file:
-  -Il primo sara un codice main.java dove ci sono gli esmepi dei motodi
-  -Il secondo invece sara una file metodo.java dove ci saranno tutti i metodi
-  -Il terzo è il pdf del parziale
+## 📘 Parziali del corso di Laboratorio di Programmazione
 
-Ricordate la soluzione è fatta da me ma non dal prof.
+Questa repository conterrà i **parziali del corso di Laboratorio di Programmazione**.  
+Ogni parziale includerà tre file:
+
+1. **main.java** – Contiene esempi di utilizzo dei metodi.
+2. **metodi.java** – Contiene l’implementazione di tutti i metodi richiesti.
+3. **PDF del parziale** – Il testo ufficiale del compito.
+
+⚠️ **Nota importante:**  
+Le soluzioni presenti nella repository sono state realizzate da me e **non sono quelle fornite dal professore**.
