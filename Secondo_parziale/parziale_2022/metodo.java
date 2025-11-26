@@ -24,7 +24,7 @@ public class metodo{
                 else{
                     j++;
                 }
-                
+                 
             }
             b[i]=controllo;
         }

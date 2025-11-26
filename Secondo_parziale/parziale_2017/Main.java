@@ -21,25 +21,18 @@ public class Main {
         }
         */
        /*Main per il secondo metodo senza ricorsione */
-        /*String[] a= {"abbcd","ad","bffgh","jswf","frs"};
+       /* 
+        String[] a= {"abbcd","ad","bffgh","jswf","frs"};
         char[] c={'b','h','f','w','a'};
         int k=2;
-        if(metodo.metodo2(a, c, k)){
-            System.out.println("vero");
-        }
-        else{
-            System.out.println("falso");
-        }*/
+        System.out.println(metodo.metodo2(a, c, k));
+        */
        /*Metodo main per secodno metodo ma con ricorsione */
         /*String[] a= {"abbcd","ad","bffgh","jswf","frs"};
         char[] c={'b','h','f','w','a'};
         int k=2;
-        if(metodo.metodo2_ricorsivo(a, c, k)){
-            System.out.println("vero");
-        }
-        else{
-            System.out.println("falso");
-        }*/
+        System.out.println(metodo.metodo2(a, c, k));
+        */
        /*Main per il terzo metodo  */
        /* 
        int []a={5,-4,-1,3};

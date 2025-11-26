@@ -60,15 +60,16 @@ public class metodo {
                 if(a[i].charAt(j)!=c[i]){
                     cont++;
                 }
-                else{
-                    return false;
-                }
+                j++;
+            }
+            if(cont<k){
+                return false;
             }
         }
         return true;
     }
 
-    /*meodo precedente ma ricorsivo */
+    /*metodo precedente ma ricorsivo */
     public static boolean metodo2_ricorsivo(String []a,char[] c,int k){
         return metodo2_ricorsivo(a,c,k,0,0,0);
     }
