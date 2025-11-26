@@ -64,7 +64,7 @@ public class metodo {
         String[] b=new String[a.length];
         return metodo2_ricorsivo(a, c,b,0,0,"");
     }
-    
+
     public static String[] metodo2_ricorsivo(String[]a, char[]c,String[] b, int i,int j,String s){
         if(i==a.length) return b;
         if(j==a[i].length()) {

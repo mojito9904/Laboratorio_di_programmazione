@@ -10,6 +10,7 @@ public class Main {
         System.out.println(metodo.metodo1(a, c, k));
         */
         /*Main per il metodo 2 con e senza ricorsione */
+        /* 
         String []a = {"apqpwp","gwwg","jxxh","y","qq","rzrr"};
         char[]c = {'p','g','x','z','q','r'};
         //String[]b=metodo.metodo2(a, c);
@@ -17,5 +18,6 @@ public class Main {
         for (int i = 0; i < b.length; i++) {
             System.out.println(b[i]);
         }
+        */
     }
 }
