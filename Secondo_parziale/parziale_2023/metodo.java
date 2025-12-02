@@ -82,28 +82,32 @@ riga a[i] che soddisfa la condizione richiesta.
                 return metodo2_ricorsivo(a, c, k, b, i+1, 0, 0);
             }
         }
-        if(a[i].equals(c[i])){
-            cont++;
-            
-        }
+        if(a[i].equals(c[i])) cont++;
+
         return metodo2_ricorsivo(a, c, k, b, i, j+1, cont);
     }
-
+    /*
+    Esercizio 4. Scrivere un metodo statico iterativo che, dati un array monodimensionale di
+    stringhe a ed una stringa s, restituisce un array bidimensionale di stringhe b tale che la riga
+    b[i] contiene le stringhe ottenute concatenando i caratteri della stringa a[i] (letta da sx a dx)
+    con la stringa s.
+    Esempio: se a = {"bncz","as","rvc"}ed s = "ulla", il metodo restituisce l’array
+    b = {{"bulla","nulla","culla","zulla"},{"aulla","sulla"},{"rulla","vulla",
+    "*/
+    public static String[][] metodo3(String[] a, String s){
+        String[][]b=new String[a.length][];
+        for (int i = 0; i < a.length; i++) {
+            b[i]=new String[a[i].length()];
+            for (int j = 0; j < a[i].length(); j++) {
+                char c=a[i].charAt(j);
+                b[i][j]=c+s;
+            }
+        }
+        return b;
+    }
 
 }
 
-    /*
- 
+
 
     
-
-Esercizio 3. Scrivere una versione ricorsiva del metodo definito per risolvere l’Esercizio 2
-(incluso il requisito del suo N.B.).
-Esercizio 4. Scrivere un metodo statico iterativo che, dati un array monodimensionale di
-stringhe a ed una stringa s, restituisce un array bidimensionale di stringhe b tale che la riga
-b[i] contiene le stringhe ottenute concatenando i caratteri della stringa a[i] (letta da sx a dx)
-con la stringa s.
-Esempio: se a = {"bncz","as","rvc"}ed s = "ulla", il metodo restituisce l’array
-b = {{"bulla","nulla","culla","zulla"},{"aulla","sulla"},{"rulla","vulla",
-"culla"}}.
-    */ 
